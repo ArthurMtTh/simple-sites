@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color: rgba(0, 0, 0, 0.700);
+    font-family: 'Oswald', sans-serif;
+}
+
+.cardResult {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.600);
+    border: 0;
+    width: 18rem;
+}
+
+.card-text {
+    color: rgba(0, 0, 0, 0.500);
+}
+
+hr.solid {
+    border-top: 1px solid rgb(0, 0, 0);
+}
